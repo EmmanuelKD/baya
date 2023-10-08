@@ -1,11 +1,11 @@
 "use client";
-
-import { AuthClass } from "@/firebase/auth";
-import { UsersClass } from "@/firebase/collections/users";
+ 
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import { AuthContext } from "./context";
 import { AuthContextProp, AuthContextState } from "./types";
+import { AuthClass } from "firebase/auth";
+import { UsersClass } from "firebase/collections/users";
 
 function AuthContextProvider(props: AuthContextProp) {
   const navigate = useRouter();
@@ -27,7 +27,7 @@ function AuthContextProvider(props: AuthContextProp) {
         setState((prev) => ({ ...prev, userStorData }));
         usr.getUsersById(localUser.objectId).then((localUser) => {
           if (localUser) {
-            loadUserToState(localUser)
+            loadUserToState(localUser);
             // keep local stor in sync
             auth.saveUserToLocalStorage(localUser);
           }
@@ -59,7 +59,7 @@ function AuthContextProvider(props: AuthContextProp) {
 
     // eslint-disable-next-line
     // react-hooks/exhaustive-deps
-  }, [state]);
+  }, [state,]);
 
   function setUserStoreData(userStorData: AppUser) {
     // console.log(userStorData);

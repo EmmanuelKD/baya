@@ -64,31 +64,64 @@ module.exports = {
             display: ['PT Mono, monospace'],
             body: ['Inter, sans-serif'],
           },
-          'primary': '#000000',           /* Primary color */
-          'primary-focus': '#9945FF',     /* Primary color - focused */
-          'primary-content': '#ffffff',   /* Foreground content color to use on primary color */
+          'primary-light': '#B21575',            /* comm */
+          'on-primary-light': '#FFFFFF',      /* comm */
+          'primary-container-light': '#FFD8E6',    /* comm */
+          'on-primary-container-light': '#3D0025',    /* comm */
 
-          'secondary': '#808080',         /* Secondary color */
-          'secondary-focus': '#f3cc30',   /* Secondary color - focused */
-          'secondary-content': '#ffffff', /* Foreground content color to use on secondary color */
+          'secondary-light': '#964900',           /* secondary color */
+          'on-secondary-light': '#FFFFFF',     /* comm */
+          'secondary-container-light': '#FFDCC7',   /* comm */
+          'on-secondary-container-light': '#311300',    /* comm */
 
-          'accent': '#33a382',            /* Accent color */
-          'accent-focus': '#2aa79b',      /* Accent color - focused */
-          'accent-content': '#ffffff',    /* Foreground content color to use on accent color */
+          'tertiary-light': '#B91D1D',            /* comm */
+          'on-tertiary-light': '#FFFFFF',      /* comm */
+          'tertiary-container-light': '#FFDAD6',    /* comm */
+          'on-tertiary-container-light': '#410002',    /* comm */
 
-          'neutral': '#2b2b2b',           /* Neutral color */
-          'neutral-focus': '#2a2e37',     /* Neutral color - focused */
-          'neutral-content': '#ffffff',   /* Foreground content color to use on neutral color */
+          'error-light': '#BA1A1A',
+          'on-error-light': '#FFFFFF',
+          'error-container-light': '#FFDAD6',
+          'on-error-container-light': '#410002',
 
-          'base-100': '#000000',          /* Base color of page, used for blank backgrounds */
-          'base-200': '#35363a',          /* Base color, a little darker */
-          'base-300': '#222222',          /* Base color, even more darker */
-          'base-content': '#f9fafb',      /* Foreground content color to use on base color */
+          'background-light': '#FAFDFD',          /* comm */
+          'on-background-light': '#191C1D',    /* comm */
+          'surface-light': '#F8FAFA',    /* comm */
+          'on-surface-light': '#191C1D',   /* comm */
+          'surface-variant-light': '#F1DEE3',    /* comm */
+          'on-surface-variant-light': '#504348',         /* comm */
+          'outline-light': '#827378',     /* comm */
 
-          'info': '#2094f3',              /* Info */
-          'success': '#009485',           /* Success */
-          'warning': '#ff9900',           /* Warning */
-          'error': '#ff5724',             /* Error */
+
+
+          'primary-dark': '#FFAFD2',           /* comm */
+          'on-primary-dark': '#63003E',     /* comm */
+          'primary-container-dark': '#8B005A',    /* comm */
+          'on-primary-container-dark': '#FFD8E6',    /* comm */
+
+          'secondary-dark': '#FFB787',           /* comm */
+          'on-secondary-dark': '#502400',      /* comm */
+          'secondary-container-dark': '#8B005A',    /* comm */
+          'on-secondary-container-dark': '#FFDCC7',   /* comm */
+
+          'tertiary-dark': '#FFB4AB',           /* comm */
+          'on-tertiary-dark': '#690005',      /* comm */
+          'tertiary-container-dark': '#93000B',    /* comm */
+          'on-tertiary-container-dark': '#FFDAD6',    /* comm */
+
+
+          'background-dark': '#FAFDFD',           /* comm */
+          'on-background-dark': '#191C1D',      /* comm */
+          'surface-dark': '#F8FAFA',    /* comm */
+          'on-surface-dark': '#191C1D',   /* comm */
+          'surface-variant-dark': '#F1DEE3',    /* comm */
+          'on-surface-variant-dark': '#504348',          /* comm */
+          'outline-dark': '#827378',     /* comm */
+
+          'error-dark': '#FFB4AB',
+          'on-error-dark': '#690005',
+          'error-container-dark': '#93000A',
+          'on-error-container-dark': '#FFDAD6',
         },
       },
       // backup themes:
